@@ -239,6 +239,10 @@ footer {
   .precio-producto p {
     margin: 0; }
 
+.form-contacto {
+  width: 600px;
+  height: 483px; }
+
 @media (max-width: 1100px) {
   .centradoproyecto {
     width: 100%;

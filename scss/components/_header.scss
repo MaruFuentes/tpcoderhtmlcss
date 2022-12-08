@@ -1,0 +1,145 @@
+.textnav {
+	span {
+		font-family: $Roboto !important;
+		font-size: 24px;
+		letter-spacing: -8px;
+	}
+}
+
+
+
+nav {
+	background-color: $background-color_azul;
+	color: $color_blanco;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 60px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	margin: 0% 15px 0 15px;
+	a {
+		color: $color_blanco;
+		text-decoration: none;
+	}
+}
+ul {
+	max-width: 1000px;
+}
+h1 {
+	margin-left: 10px;
+	font-size: 1.5rem !important;
+}
+
+.respmenu {
+	display: none;
+	color: $color_blanco;
+	position: relative;
+	background: darkblue;
+	min-height: 48px;
+	a {
+		color: $color_one;
+		text-decoration: none;
+		display: block;
+		padding: 10px 20px;
+		border-bottom: 2px solid #456789;
+		max-width: 200px;
+		background: #234567;
+		font-variant: small-caps;
+		text-shadow: 1px 1px black;
+	}
+	input[type="checkbox"] {
+		position: absolute;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		right: 0;
+		top: 0;
+		width: 48px;
+		height: 48px;
+		opacity: 0;
+	}
+	.fa-bars {
+		position: absolute;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		right: 0;
+		top: 0;
+		width: 48px;
+		height: 48px;
+		font-size: 48px;
+		pointer-events: none;
+	}
+	.fa-times {
+		position: absolute;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		right: 0;
+		top: 0;
+		width: 48px;
+		height: 48px;
+		font-size: 48px;
+		pointer-events: none;
+	}
+	nav {
+		display: none;
+	}
+	input {
+		&:checked {
+			~ {
+				nav {
+					display: block;
+				}
+				.fa-bars {
+					display: none;
+				}
+			}
+		}
+		&:not(:checked) {
+			~ {
+				.fa-times {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+#l1 {
+	color: $color_rojo;
+}
+#l2 {
+	color: $color_verde;
+}
+#l3 {
+	color: $color_azul;
+}
+#l4 {
+	color: $color_amarillo;
+}
+#l5 {
+	color: $color_rojo;
+}
+#l6 {
+	color: $color_verde;
+}
+#l7 {
+	color: $color_azul;
+}
+#l8 {
+	color: $color_amarillo;
+}
+#l9 {
+	color: $color_rojo;
+}
+#l10 {
+	color: $color_verde;
+}
+#l11 {
+	color: $color_azul;
+}

@@ -78,6 +78,8 @@ h1 {
   position: relative;
   background: darkblue;
   min-height: 48px; }
+  .respmenu ul {
+    background-color: darkblue; }
   .respmenu a {
     color: inherit;
     text-decoration: none;
@@ -196,15 +198,13 @@ footer {
     width: 100%;
     height: 80vh; }
 
-.contenedorpersonalizado {
-  position: relative; }
-  .contenedorpersonalizado img {
-    width: 100%;
-    height: 40vh; }
+.contenedorpersonalizado img {
+  width: 100%;
+  height: 40vh; }
 
 .centrado {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -269,4 +269,10 @@ footer {
   #navDesc {
     display: none; }
   .respmenu {
-    display: block; } }
+    display: block;
+    z-index: 1; } }
+
+@media (max-width: 655px) {
+  .form-contacto {
+    width: auto;
+    height: auto; } }

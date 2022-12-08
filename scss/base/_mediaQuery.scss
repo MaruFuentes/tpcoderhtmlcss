@@ -23,5 +23,12 @@
 	}
 	.respmenu {
 		display: block;
+		z-index: 1;
+	}
+}
+@media(max-width:655px){
+	.form-contacto{
+		width: auto;
+		height: auto;
 	}
 }

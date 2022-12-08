@@ -40,6 +40,9 @@ h1 {
 	position: relative;
 	background: darkblue;
 	min-height: 48px;
+	ul{
+		background-color: darkblue;
+	}
 	a {
 		color: $color_one;
 		text-decoration: none;
